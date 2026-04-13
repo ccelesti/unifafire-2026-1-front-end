@@ -1,0 +1,16 @@
+.container{
+display:flex;
+gap:20px;
+justify-content:center;
+}
+
+.card{
+padding:20px;
+border:2px solid black;
+}
+
+footer{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}

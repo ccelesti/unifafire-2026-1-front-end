@@ -1,0 +1,17 @@
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify;
+}
+
+.card{
+background-color: antiquewhite;
+padding:20px;
+margin:30px;
+border:2px solid black;
+width:300px;
+}
+
+.card h2{
+text-align:center;
+}

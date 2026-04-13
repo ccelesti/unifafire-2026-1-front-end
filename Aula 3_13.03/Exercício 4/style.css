@@ -1,0 +1,45 @@
+/* 
+Exercício 4
+- Ao aumentar o padding no <header>, aumenta também o espaço interno do conteúdo;
+- A margin maior no <main> faz com que o conteúdo fique mais longe da borda da caixa;
+- Espessar a borda das <section> deixa o objeto menos discreto e mais destacado visualmente;
+- Mudar a cor de fundo do <aside> faz mudar a forma de visualizar o item, no caso da minha página deixando mais destacado. */
+
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: antiquewhite;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color: brown;
+    display: flex;
+    border: 10px;    
+}
+
+main{
+    margin: 40px;
+}
+
+section{
+    border: 4px solid black;
+    padding: 20px;
+    margin: 0 0 15px 0;
+}
+
+aside{
+    background-color: rgb(233, 87, 134);
+    padding: 5px;
+}
+
+footer{
+    background-color: azure;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
